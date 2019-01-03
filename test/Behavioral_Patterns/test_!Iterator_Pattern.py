@@ -31,11 +31,11 @@ class NameRepository(Container):
     def getIterator(self):
         return
 
-    class __NameIterator__(Iterator):
+    class NameIterator(Iterator):
         def __init__(self):
             Iterator.__init__(self)
             self.index = 0
-            print self.names
+            print(self.names)
 
         def hasNext(self):
             if self.index < len(self.names):
@@ -46,7 +46,7 @@ class NameRepository(Container):
             if self.hasNext():
                 return
             return
-NameRepository().__NameIterator__()
+NameRepository().NameIterator()
 
 """
 Iterator.java
