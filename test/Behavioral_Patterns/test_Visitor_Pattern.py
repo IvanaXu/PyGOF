@@ -68,13 +68,13 @@ class ComputerPartDisplayVisitor(ComputerPartVisitor):
     def visit(self, part):
         # N O G O O D
         if str(part.__class__) == '__main__.Keyboard':
-            print 'Displaying Keyboard.'
+            print('Displaying Keyboard.')
         if str(part.__class__) == '__main__.Monitor':
-            print 'Displaying Monitor.'
+            print('Displaying Monitor.')
         if str(part.__class__) == '__main__.Mouse':
-            print 'Displaying Mouse.'
+            print('Displaying Mouse.')
         if str(part.__class__) == '__main__.Computer':
-            print 'Displaying Computer.'
+            print('Displaying Computer.')
 # C = Mouse()
 # D = ComputerPartDisplayVisitor()
 # D.visit(C)
