@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:06:02
-# @goal tPatterns for Null Object Pattern
+# @goal test for Null Object Pattern
 
 
 class AbstractCustomer:
@@ -57,10 +57,11 @@ class NullPatternDemp:
         customer3 = CustomerFactory().getCustomer("Julie")
         customer4 = CustomerFactory().getCustomer("Laura")
 
-        print "Customers:"
-        print customer1.isNil(),  ':', customer1.getName()
-        print customer2.isNil(), ' :', customer2.getName()
-        print customer3.isNil(),  ':', customer3.getName()
-        print customer4.isNil(), ' :', customer4.getName()
+        print("Customers:")
+        print(customer1.isNil(),  ':', customer1.getName())
+        print(customer2.isNil(), ' :', customer2.getName())
+        print(customer3.isNil(),  ':', customer3.getName())
+        print(customer4.isNil(), ' :', customer4.getName())
 N = NullPatternDemp()
 N.run()
+

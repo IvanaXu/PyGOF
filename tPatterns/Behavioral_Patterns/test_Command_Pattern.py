@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 20:53:16
-# @goal tPatterns for Command Pattern
+# @goal test for Command Pattern
 
 
 class Order:
@@ -18,10 +18,10 @@ class Stock:
         self.quantity = 10
 
     def buy(self):
-        print "Stock [ Name: " + self.name + ", Quantity: " + str(self.quantity) + " ] bought"
+        print("Stock [ Name: " + self.name + ", Quantity: " + str(self.quantity) + " ] bought")
 
     def sell(self):
-        print "Stock [ Name: " + self.name + ", Quantity: " + str(self.quantity) + " ] sold"
+        print("Stock [ Name: " + self.name + ", Quantity: " + str(self.quantity) + " ] sold")
 
 
 class BuyStock(Order):

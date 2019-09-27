@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 09:45:26
-# @goal tPatterns for State Pattern
+# @goal test for State Pattern
 
 
 class State:
@@ -18,7 +18,7 @@ class StartState(State):
         return
 
     def doAction(self, context):
-        print 'Player is in start state'
+        print('Player is in start state')
         context.setState(self)
 
     def toString(self):
@@ -31,7 +31,7 @@ class StopState(State):
         return
 
     def doAction(self, context):
-        print 'Player is in stop state'
+        print('Player is in stop state')
         context.setState(self)
 
     def toString(self):
@@ -56,12 +56,12 @@ class StatePatternDemo:
         self.startState = StartState()
         self.startState.doAction(self.context)
 
-        print self.context.getState().toString()
+        print(self.context.getState().toString())
 
         self.stopState = StopState()
         self.stopState.doAction(self.context)
 
-        print self.context.getState().toString()
+        print(self.context.getState().toString())
 S = StatePatternDemo()
 S.run()
 

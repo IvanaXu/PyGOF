@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:56:29
-# @goal tPatterns for Template Pattern
+# @goal test for Template Pattern
 
 
 class Game:
@@ -30,13 +30,13 @@ class Cricket(Game):
         Game.__init__(self)
 
     def initialize(self):
-        print "Cricket Game Initialized! Start playing."
+        print("Cricket Game Initialized! Start playing.")
 
     def startPlay(self):
-        print "Cricket Game Started. Enjoy the game!"
+        print("Cricket Game Started. Enjoy the game!")
 
     def endPlay(self):
-        print "Cricket Game Finished!"
+        print("Cricket Game Finished!")
 
 
 class Football(Game):
@@ -44,13 +44,13 @@ class Football(Game):
         Game.__init__(self)
 
     def initialize(self):
-        print "Football Game Initialized! Start playing."
+        print("Football Game Initialized! Start playing.")
 
     def startPlay(self):
-        print "Football Game Started. Enjoy the game!"
+        print("Football Game Started. Enjoy the game!")
 
     def endPlay(self):
-        print "Football Game Finished!"
+        print("Football Game Finished!")
 # Cricket Football
 
 
@@ -58,7 +58,7 @@ class TemplatePatternDemo:
     def run(self):
         game = Cricket()
         game.play()
-        print '\n'
+        print('\n')
         game = Football()
         game.play()
 T = TemplatePatternDemo()

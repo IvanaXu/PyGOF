@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-21 18:41:32
-# @goal tPatterns for Iterator Pattern
+# @goal test for Iterator Pattern
 
 
 class Iterator:

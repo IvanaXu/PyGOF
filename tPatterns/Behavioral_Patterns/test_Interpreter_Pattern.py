@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 21:18:12
-# @goal tPatterns for Interpreter Pattern
+# @goal test for Interpreter Pattern
 
 
 class Expression:
@@ -58,11 +58,11 @@ class InterpreterPatternDemo:
         isMale = self.getMaleExpression()
         isMarriedWoman = self.getMarriedWomanExpression()
 
-        print 'John is male? '
-        print isMale.interpret('John')
+        print('John is male? ')
+        print(isMale.interpret('John'))
         # print self.getMaleExpression().interpret('John')
-        print 'Julie is a married women?'
-        print isMarriedWoman.interpret('Married Julie')
+        print('Julie is a married women?')
+        print(isMarriedWoman.interpret('Married Julie'))
         # print self.getMarriedWomanExpression().interpret('Married Julie')
         return
 I = InterpreterPatternDemo()

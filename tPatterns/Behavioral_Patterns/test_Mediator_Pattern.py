@@ -1,13 +1,13 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-25 19:30:19
-# @goal tPatterns for Mediator Pattern
+# @goal test for Mediator Pattern
 import datetime
 
 
 class ChatRoom:
     def showMessage(self, user, message):
-        print str(datetime.datetime.now()) + '[' + user.getName() + ']' + message
+        print(str(datetime.datetime.now()) + '[' + user.getName() + ']' + message)
 
 
 class User:

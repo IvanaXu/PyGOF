@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-25 20:08:49
-# @goal tPatterns for Memento Pattern
+# @goal test for Memento Pattern
 
 
 class Memento:
@@ -58,11 +58,11 @@ class MementoPatternDemo:
         careTaker.add(originator.saveStateToMemento())
         originator.setState("State #4")
 
-        print "Current State: " + originator.getState()
+        print("Current State: " + originator.getState())
         originator.getStateFromMemento(careTaker.get(0))
-        print "First saved State: " + originator.getState()
+        print("First saved State: " + originator.getState())
         originator.getStateFromMemento(careTaker.get(1))
-        print "Second saved State: " + originator.getState()
+        print("Second saved State: " + originator.getState())
 M = MementoPatternDemo()
 M.run()
 

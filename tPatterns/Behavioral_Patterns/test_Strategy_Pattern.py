@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:42:50
-# @goal tPatterns for Strategy Pattern
+# @goal test for Strategy Pattern
 
 
 class Strategy:
@@ -35,12 +35,13 @@ class Context:
 class StrategyPatternDemo:
     def run(self):
         context = Context(OperationAdd())
-        print "10 + 5 = " + str(context.executeStrategy(10, 5))
+        print("10 + 5 = " + str(context.executeStrategy(10, 5)))
 
         context = Context(OperationSubstract())
-        print "10 - 5 = " + str(context.executeStrategy(10, 5))
+        print("10 - 5 = " + str(context.executeStrategy(10, 5)))
 
         context = Context(OperationMultiply())
-        print "10 * 5 = " + str(context.executeStrategy(10, 5))
+        print("10 * 5 = " + str(context.executeStrategy(10, 5)))
 S = StrategyPatternDemo()
 S.run()
+
