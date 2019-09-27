@@ -22,7 +22,7 @@ class VlcPlayer(AdvancedMediaPlayer):
         return
 
     def playVlc(self):
-        print "Playing vlc file. Name: " + self.fileName
+        print("Playing vlc file. Name: " + self.fileName)
 
     def playMP4(self):
         return
@@ -41,7 +41,7 @@ class Mp4Player(AdvancedMediaPlayer):
         return
 
     def playMP4(self):
-        print "Playing mp4 file. Name: " + self.fileName
+        print("Playing mp4 file. Name: " + self.fileName)
 
 
 class MediaPlayer:
@@ -82,11 +82,11 @@ class AudioPlayer(MediaPlayer):
 
     def play(self):
         if self.audioType == "mp3":
-            print "Playing mp3 file. Name: " + self.fileName
+            print("Playing mp3 file. Name: " + self.fileName)
         elif self.audioType == "vlc" or self.audioType == "mp4":
             self.mediaAdapter.play()
         else:
-            print "Invalid media. " + self.audioType + " format not supported"
+            print("Invalid media. " + self.audioType + " format not supported")
 
 
 class AdapterPatternDemo:
