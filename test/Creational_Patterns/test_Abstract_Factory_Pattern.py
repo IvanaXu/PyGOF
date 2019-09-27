@@ -15,17 +15,17 @@ class Shape:
 
 class Circle(Shape):
     def draw(self):
-        print "Inside Circle::draw() method."
+        print("Inside Circle::draw() method.")
 
 
 class Rectangle(Shape):
     def draw(self):
-        print "Inside Rectangle::draw() method."
+        print("Inside Rectangle::draw() method.")
 
 
 class Square(Shape):
     def draw(self):
-        print "Inside Square::draw() method."
+        print("Inside Square::draw() method.")
 
 
 class Color:
@@ -39,17 +39,17 @@ class Color:
 
 class Blue(Color):
     def fill(self):
-        print "Inside Blue::fill() method."
+        print("Inside Blue::fill() method.")
 
 
 class Green(Color):
     def fill(self):
-        print "Inside Green::fill() method."
+        print("Inside Green::fill() method.")
 
 
 class Red(Color):
     def fill(self):
-        print "Inside Red::fill() method."
+        print("Inside Red::fill() method.")
 
 
 class AbstractFactory:

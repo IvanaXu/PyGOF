@@ -35,7 +35,7 @@ class BinaryObserver(Observer):
         self.subject.attach(self)
 
     def update(self):
-        print "Binary String: " + bin(self.subject.getState())
+        print("Binary String: " + bin(self.subject.getState()))
 # BinaryObserver
 
 
@@ -45,7 +45,7 @@ class OctalObserver(Observer):
         self.subject.attach(self)
 
     def update(self):
-        print "Octal String: " + oct(self.subject.getState())
+        print("Octal String: " + oct(self.subject.getState()))
 # OctalObserver
 
 
@@ -55,7 +55,7 @@ class HexaObserver(Observer):
         self.subject.attach(self)
 
     def update(self):
-        print "Hex String: " + hex(self.subject.getState())
+        print("Hex String: " + hex(self.subject.getState()))
 # HexaObserver
 
 
@@ -66,10 +66,10 @@ class ObserverPatternDemo:
         OctalObserver(self.subject)
         HexaObserver(self.subject)
 
-        print "First state change: 15"
+        print("First state change: 15")
         self.subject.setState(15)
 
-        print "Second state change: 10"
+        print("Second state change: 10")
         self.subject.setState(10)
 O = ObserverPatternDemo()
 O.run()
