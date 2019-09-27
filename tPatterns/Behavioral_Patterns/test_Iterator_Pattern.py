@@ -27,6 +27,8 @@ class NameRepository(Container):
     def __init__(self):
         Container.__init__(self)
         self.names = {"Robert", "John", "Julie", "Lora"}
+        global names
+        names = self.names
 
     def getIterator(self):
         return
@@ -35,10 +37,10 @@ class NameRepository(Container):
         def __init__(self):
             Iterator.__init__(self)
             self.index = 0
-            print(self.names)
+            print(names)
 
         def hasNext(self):
-            if self.index < len(self.names):
+            if self.index < len(names):
                 return True
             return False
 
@@ -46,6 +48,7 @@ class NameRepository(Container):
             if self.hasNext():
                 return
             return
+
 NameRepository().NameIterator()
 
 """
