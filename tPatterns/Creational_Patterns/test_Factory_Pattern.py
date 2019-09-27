@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 10:12:29
-# @goal tPatterns Factory Pattern
+# @goal test Factory Pattern
 
 
 class Shape:
@@ -14,17 +14,17 @@ class Shape:
 
 class Rectangle(Shape):
     def draw(self):
-        print "Inside Rectangle::draw() method."
+        print("Inside Rectangle::draw() method.")
 
 
 class Square(Shape):
     def draw(self):
-        print "Inside Square::draw() method."
+        print("Inside Square::draw() method.")
 
 
 class Circle(Shape):
     def draw(self):
-        print "Inside Circle::draw() method."
+        print("Inside Circle::draw() method.")
 
 
 class ShapeFactory:

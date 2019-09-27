@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 17:32:24
-# @goal tPatterns Builder Pattern
+# @goal test Builder Pattern
 
 
 class Item:
@@ -101,9 +101,9 @@ class Meal:
 
     def showItems(self):
         for item in self.items:
-            print "Item : " + item.name()
-            print ", Packing : " + item.packing().pack()
-            print ", Price : " + str(item.price())
+            print("Item : " + item.name())
+            print(", Packing : " + item.packing().pack())
+            print(", Price : " + str(item.price()))
 
 
 class MealBuilder:
@@ -132,19 +132,19 @@ class BuilderPatternDemo:
         mealBuilder = MealBuilder()
 
         vegMeal = mealBuilder.prepareVegMeal()
-        print "Veg Meal"
+        print("Veg Meal")
         vegMeal.showItems()
-        print "Total Cost: " + str(vegMeal.getCost())
+        print("Total Cost: " + str(vegMeal.getCost()))
 
         nonVegMeal = mealBuilder.prepareNonVegMeal()
-        print "\n\nNon-Veg Meal"
+        print("\n\nNon-Veg Meal")
         nonVegMeal.showItems()
-        print "Total Cost: " + str(nonVegMeal.getCost())
+        print("Total Cost: " + str(nonVegMeal.getCost()))
 
-        print "\n\n____#List#____"
+        print("\n\n____#List#____")
         listMeal = mealBuilder.prepareList()
-        print "List Meal"
+        print("List Meal")
         listMeal.showItems()
-        print "Total Cost: " + str(listMeal.getCost())
+        print("Total Cost: " + str(listMeal.getCost()))
 BuilderPatternDemo()
 

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 17:16:26
-# @goal tPatterns Singleton Pattern
+# @goal test Singleton Pattern
 
 
 class SingleObject:
@@ -13,7 +13,7 @@ class SingleObject:
         return self.instance
 
     def showMessage(self):
-        print 'Hello World'
+        print('Hello World')
 
 
 class SingletonPatternDemo:
