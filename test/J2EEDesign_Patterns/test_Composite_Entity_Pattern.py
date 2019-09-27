@@ -56,7 +56,7 @@ class Client:
 
     def printData(self):
         for i in self.compsiteEntity.getData():
-            print 'Data: ' + i
+            print('Data: ' + i)
 
     def setData(self, data1, data2):
         self.compsiteEntity.setData(data1, data2)

@@ -18,7 +18,7 @@ class EJBService(BusinessService):
         return
 
     def doProcessing(self):
-        print "Processing task by invoking EJB Service"
+        print("Processing task by invoking EJB Service")
 
 
 class JMSService(BusinessService):
@@ -27,7 +27,7 @@ class JMSService(BusinessService):
         return
 
     def doProcessing(self):
-        print "Processing task by invoking JMS Service"
+        print("Processing task by invoking JMS Service")
 
 
 class BusinessLookUp:
@@ -75,4 +75,6 @@ class BusinessDelegatePatternDemo:
         client.doTask()
 B = BusinessDelegatePatternDemo()
 B.run()
+
+
 

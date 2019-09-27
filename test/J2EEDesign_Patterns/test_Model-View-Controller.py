@@ -34,9 +34,9 @@ class StudentView:
         return
 
     def printStudentDetails(self, studentName, studentRollNo):
-        print "Student: "
-        print "Name: " + studentName
-        print "Roll No: " + studentRollNo
+        print("Student: ")
+        print("Name: " + studentName)
+        print("Roll No: " + studentRollNo)
 # B = StudentView()
 # B.printStudentDetails('ivan', '3112005932')
 
@@ -76,7 +76,7 @@ class MVCPatternDemo:
         controller.updateView()
 
         # update data
-        controller.setStudentName('John')Q
+        controller.setStudentName('John')
         controller.updateView()
         return
 
@@ -87,4 +87,5 @@ class MVCPatternDemo:
         return student
 C = MVCPatternDemo()
 C.run()
+# RecursionError: maximum recursion depth exceeded
 
