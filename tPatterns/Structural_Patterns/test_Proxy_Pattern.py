@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 19:11:22
-# @goal tPatterns for Proxy Pattern
+# @goal test for Proxy Pattern
 
 
 class Image:

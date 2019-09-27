@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan 
 # @time 2016-10-14 21:04:43
-# @goal tPatterns Filter Pattern
+# @goal test Filter Pattern
 
 
 class Person:
@@ -121,7 +121,4 @@ class CriteriaPatternDemo:
                   + person.getMaritalStatus() + " ]")
         return
 CriteriaPatternDemo()
-
-# CriteriaPatternDemo
-# error
 

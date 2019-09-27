@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-19 21:14:15
-# @goal tPatterns for Decorator Pattern
+# @goal test for Decorator Pattern
 
 
 class Shape:
