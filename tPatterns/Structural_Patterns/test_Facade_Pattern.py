@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-19 21:43:58 
-# @goal test for Facade Pattern
+# @goal tPatterns for Facade Pattern
 
 
 class Shape:

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan 
 # @time 2016-10-14 21:04:43
-# @goal test Filter Pattern
+# @goal tPatterns Filter Pattern
 
 
 class Person:
@@ -114,7 +114,7 @@ class CriteriaPatternDemo:
         return
 
     def printPersons(self, persons):
-        # print 'test'
+        # print 'tPatterns'
         # print persons
         for person in persons:
             print("Person : [ Name : " + person.getName() + ", Gender : " + person.getGender() + ", Marital Status : " \

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 12:00:26
-# @goal test Chain of Responsibility Pattern
+# @goal tPatterns Chain of Responsibility Pattern
 
 
 class AbstractLogger:

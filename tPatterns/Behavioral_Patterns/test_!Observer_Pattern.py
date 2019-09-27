@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-25 21:00:02
-# @goal test for Observer Pattern
+# @goal tPatterns for Observer Pattern
 
 
 class Subject():

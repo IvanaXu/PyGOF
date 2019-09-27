@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 17:27:02
-# @goal test for Flyweight Pattern
+# @goal tPatterns for Flyweight Pattern
 import random
 
 

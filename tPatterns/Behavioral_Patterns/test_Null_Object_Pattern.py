@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:06:02
-# @goal test for Null Object Pattern
+# @goal tPatterns for Null Object Pattern
 
 
 class AbstractCustomer:

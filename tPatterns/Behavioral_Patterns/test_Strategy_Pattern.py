@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:42:50
-# @goal test for Strategy Pattern
+# @goal tPatterns for Strategy Pattern
 
 
 class Strategy:

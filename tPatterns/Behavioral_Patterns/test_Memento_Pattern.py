@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-25 20:08:49
-# @goal test for Memento Pattern
+# @goal tPatterns for Memento Pattern
 
 
 class Memento:

@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 09:45:26
-# @goal test for State Pattern
+# @goal tPatterns for State Pattern
 
 
 class State:

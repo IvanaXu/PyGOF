@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-25 19:30:19
-# @goal test for Mediator Pattern
+# @goal tPatterns for Mediator Pattern
 import datetime
 
 

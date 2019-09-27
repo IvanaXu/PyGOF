@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 17:32:24
-# @goal test Builder Pattern
+# @goal tPatterns Builder Pattern
 
 
 class Item:

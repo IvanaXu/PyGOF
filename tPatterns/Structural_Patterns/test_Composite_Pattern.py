@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-19 20:36:37
-# @goal test for Composite Pattern
+# @goal tPatterns for Composite Pattern
 
 
 class Employee:

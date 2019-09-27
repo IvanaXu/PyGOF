@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 15:34:54
-# @goal test Model-View-Controller
+# @goal tPatterns Model-View-Controller
 
 
 class Student:

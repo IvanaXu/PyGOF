@@ -6,6 +6,7 @@ Erich Gamma、Richard Helm、Ralph Johnson、John Vlissides 合著
 
 这几位作者常被称为四人组-Gang of Four。
 
+
 ~~@time 20170912 update.~~
 
 ~~@time 20190101 JUST SOSO.~~

@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 11:21:30
-# @goal test for Visitor Pattern
+# @goal tPatterns for Visitor Pattern
 
 
 class ComputerPart:

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 17:16:26
-# @goal test Singleton Pattern
+# @goal tPatterns Singleton Pattern
 
 
 class SingleObject:

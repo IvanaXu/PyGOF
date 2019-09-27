@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan 
 # @time 2016-10-26 19:01:45
-# @goal test for Business Delegate Pattern
+# @goal tPatterns for Business Delegate Pattern
 
 
 class BusinessService:

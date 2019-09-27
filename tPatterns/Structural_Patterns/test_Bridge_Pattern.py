@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 19:51:14
-# @goal test Bridge
+# @goal tPatterns Bridge
 
 
 class DrawAPI:

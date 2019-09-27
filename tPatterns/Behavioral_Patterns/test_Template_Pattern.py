@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 10:56:29
-# @goal test for Template Pattern
+# @goal tPatterns for Template Pattern
 
 
 class Game:

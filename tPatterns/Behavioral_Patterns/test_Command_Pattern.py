@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 20:53:16
-# @goal test for Command Pattern
+# @goal tPatterns for Command Pattern
 
 
 class Order:

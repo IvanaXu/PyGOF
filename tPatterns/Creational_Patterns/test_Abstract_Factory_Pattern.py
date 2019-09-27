@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 16:36:15 
-# @goal test Abstract Factory Pattern
+# @goal tPatterns Abstract Factory Pattern
 
 
 class Shape:

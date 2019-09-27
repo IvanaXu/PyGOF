@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 10:54:35
-# @goal test Adapter Pattern 
+# @goal tPatterns Adapter Pattern
 
 
 class AdvancedMediaPlayer:

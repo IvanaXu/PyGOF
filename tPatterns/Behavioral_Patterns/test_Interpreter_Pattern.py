@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-20 21:18:12
-# @goal test for Interpreter Pattern
+# @goal tPatterns for Interpreter Pattern
 
 
 class Expression:

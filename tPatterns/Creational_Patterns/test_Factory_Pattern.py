@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @auth ivan
 # @time 2016-10-14 10:12:29
-# @goal test Factory Pattern
+# @goal tPatterns Factory Pattern
 
 
 class Shape:
