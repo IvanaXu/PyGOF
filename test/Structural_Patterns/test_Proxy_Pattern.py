@@ -19,10 +19,10 @@ class RealImage(Image):
         self.loadFromDisk()
 
     def display(self):
-        print "Displaying " + self.filename
+        print("Displaying " + self.filename)
 
     def loadFromDisk(self):
-        print "Loading " + self.filename
+        print("Loading " + self.filename)
 # R = RealImage('file')
 
 
@@ -42,7 +42,7 @@ class ProxyPatternDemo:
     def run(self):
         image = ProxyImage('test_10mb.jpg')
         image.display()
-        print ' '
+        print(' ')
         image.display()
 P = ProxyPatternDemo()
 P.run()

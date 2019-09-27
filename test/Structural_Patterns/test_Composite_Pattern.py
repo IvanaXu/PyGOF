@@ -41,12 +41,12 @@ class CompositePatterDemo:
         headMarketing.add(clerk1)
         headMarketing.add(clerk2)
 
-        print CEO.toString()
+        print(CEO.toString())
 
         for headEmployee in CEO.getSubordinates():
-            print headEmployee.toString()
+            print(headEmployee.toString())
             for employee in headEmployee.getSubordinates():
-                print employee.toString()
+                print(employee.toString())
 C = CompositePatterDemo()
 C.run()
 

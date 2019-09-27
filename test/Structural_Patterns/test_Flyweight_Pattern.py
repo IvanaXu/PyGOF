@@ -29,10 +29,11 @@ class Circle(Shape):
         self.radius = radius
 
     def draw(self):
-        print "Circle: Draw() [Color : " + self.color + \
+        print("Circle: Draw() [Color : " + self.color + \
                                 ", x : " + str(self.x) + \
                                 ", y : " + str(self.y) + \
                                 ", radius :" + str(self.radius)
+              )
 
 
 class ShapeFactory:
@@ -44,7 +45,7 @@ class ShapeFactory:
         if color not in self.circleMap:
             self.circle = Circle(color)
             self.circleMap.append(color)
-            print "Creating circle of color : " + color
+            print("Creating circle of color : " + color)
         return self.circle
 
 

@@ -14,17 +14,17 @@ class Shape:
 
 class Rectangle(Shape):
     def draw(self):
-        print "Rectangle::draw()"
+        print("Rectangle::draw()")
 
 
 class Square(Shape):
     def draw(self):
-        print "Square::draw()"
+        print("Square::draw()")
 
 
 class Circle(Shape):
     def draw(self):
-        print "Circle::draw()"
+        print("Circle::draw()")
 # Rectangle Square Circle
 
 

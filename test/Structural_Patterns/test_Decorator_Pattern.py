@@ -14,12 +14,12 @@ class Shape:
 
 class Rectangle(Shape):
     def draw(self):
-        print "Shape: Rectangle"
+        print("Shape: Rectangle")
 
 
 class Circle(Shape):
     def draw(self):
-        print "Shape: Circle"
+        print("Shape: Circle")
 
 
 # Rectangle Circle
@@ -43,7 +43,7 @@ class RedShapeDecorator(ShapeDecorator):
 
     def setRedBorder(self, decoratedShape):
         # No Good
-        print "Border Color: Red"
+        print("Border Color: Red")
 
 
 class DecoratorPatternDemo:
@@ -51,13 +51,13 @@ class DecoratorPatternDemo:
         circle = Circle()
         redCircle = RedShapeDecorator(Circle())
         redRectangle = RedShapeDecorator(Rectangle())
-        print "Circle with normal border"
+        print("Circle with normal border")
         circle.draw()
 
-        print "\nCircle of red border"
+        print("\nCircle of red border")
         redCircle.draw()
 
-        print "\nRectangle of red border"
+        print("\nRectangle of red border")
         redRectangle.draw()
 D = DecoratorPatternDemo()
 D.run()

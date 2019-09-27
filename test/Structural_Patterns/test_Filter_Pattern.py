@@ -100,16 +100,16 @@ class CriteriaPatternDemo:
         self.singleMale = AndCriteria(self.single, self.male)
         self.singleOrFemale = OrCriteria(self.single, self.female)
 
-        print "Males: "
+        print("Males: ")
         self.printPersons(self.male.meetCriteria(self.persons))
 
-        print "\nFemales: "
+        print("\nFemales: ")
         self.printPersons(self.female.meetCriteria(self.persons))
         
-        print "\nSingle Males: "
+        print("\nSingle Males: ")
         self.printPersons(self.singleMale.meetCriteria(self.persons))
         
-        print "\nSingle Or Females: "
+        print("\nSingle Or Females: ")
         self.printPersons(self.singleOrFemale.meetCriteria(self.persons))
         return
 
@@ -117,8 +117,8 @@ class CriteriaPatternDemo:
         # print 'test'
         # print persons
         for person in persons:
-            print "Person : [ Name : " + person.getName() + ", Gender : " + person.getGender() + ", Marital Status : " \
-                  + person.getMaritalStatus() + " ]"
+            print("Person : [ Name : " + person.getName() + ", Gender : " + person.getGender() + ", Marital Status : " \
+                  + person.getMaritalStatus() + " ]")
         return
 CriteriaPatternDemo()
 
