@@ -11,5 +11,5 @@ Erich Gamma、Richard Helm、Ralph Johnson、John Vlissides 合著
 
 ~~@time 20190101 JUST SOSO.~~
 
-@time 20190927 update py2 tp py3.
+@time 20190927 update py2 tp py3...
 ________
