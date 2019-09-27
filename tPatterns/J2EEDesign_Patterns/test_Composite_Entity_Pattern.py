@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan
 # @time 2016-10-26 19:36:14
-# @goal tets for Composite Entity Pattern
+# @goal test for Composite Entity Pattern
 
 
 class DependentObject1:

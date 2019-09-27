@@ -1,7 +1,7 @@
 # -*-coding:utf-8-*-
 # @auth ivan 
 # @time 2016-10-26 19:01:45
-# @goal tPatterns for Business Delegate Pattern
+# @goal test for Business Delegate Pattern
 
 
 class BusinessService:
@@ -75,6 +75,4 @@ class BusinessDelegatePatternDemo:
         client.doTask()
 B = BusinessDelegatePatternDemo()
 B.run()
-
-
 
