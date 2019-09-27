@@ -30,7 +30,7 @@ class ErrorLogger(AbstractLogger):
         self.level = level
 
     def write(self, message):
-        print "Error Console::Logger: " + message
+        print("Error Console::Logger: " + message)
 
 
 class FileLogger(AbstractLogger):
@@ -39,7 +39,7 @@ class FileLogger(AbstractLogger):
         self.level = level
 
     def write(self, message):
-        print "File::Logger: " + message
+        print("File::Logger: " + message)
 
 
 class ConsoleLogger(AbstractLogger):
@@ -48,7 +48,7 @@ class ConsoleLogger(AbstractLogger):
         self.level = level
 
     def write(self, message):
-        print "Standard Console::Logger: " + message
+        print("Standard Console::Logger: " + message)
 
 
 class ChainPatternDemo:
