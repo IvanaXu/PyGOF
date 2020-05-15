@@ -44,6 +44,10 @@ class ProxyPatternDemo:
         image.display()
         print(' ')
         image.display()
+
+
 P = ProxyPatternDemo()
 P.run()
+
+
 

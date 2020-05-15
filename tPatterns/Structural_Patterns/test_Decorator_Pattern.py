@@ -59,6 +59,10 @@ class DecoratorPatternDemo:
 
         print("\nRectangle of red border")
         redRectangle.draw()
+
+
 D = DecoratorPatternDemo()
 D.run()
+
+
 

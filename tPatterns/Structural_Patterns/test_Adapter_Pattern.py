@@ -102,5 +102,8 @@ class AdapterPatternDemo:
             self.audioPlayer = AudioPlayer(self.audioType, self.fileName)
             self.audioPlayer.play()
 
+
 AdapterPatternDemo()
+
+
 

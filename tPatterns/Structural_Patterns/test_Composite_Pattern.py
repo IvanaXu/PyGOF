@@ -47,6 +47,10 @@ class CompositePatterDemo:
             print(headEmployee.toString())
             for employee in headEmployee.getSubordinates():
                 print(employee.toString())
+
+
 C = CompositePatterDemo()
 C.run()
+
+
 

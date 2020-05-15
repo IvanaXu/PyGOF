@@ -73,6 +73,10 @@ class FlyweightPatternDemo:
 
     def getRandomY(self):
         return random.randint(0, 100)
+
+
 F = FlyweightPatternDemo()
 F.run()
+
+
 

@@ -120,5 +120,9 @@ class CriteriaPatternDemo:
             print("Person : [ Name : " + person.getName() + ", Gender : " + person.getGender() + ", Marital Status : " \
                   + person.getMaritalStatus() + " ]")
         return
+
+
 CriteriaPatternDemo()
+
+
 

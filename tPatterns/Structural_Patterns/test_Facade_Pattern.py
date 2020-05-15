@@ -50,6 +50,10 @@ class FacadePatternDemo:
         shapeMaker.drawCircle()
         shapeMaker.drawRectangle()
         shapeMaker.drawSquare()
+
+
 F = FacadePatternDemo()
 F.run()
+
+
 

@@ -49,5 +49,9 @@ class BridgePatternDemo:
         greenCircle = Circle(100, 100, 10, GreenCircle())
         redCircle.draw()
         greenCircle.draw()
+
+
 BridgePatternDemo()
+
+
 
