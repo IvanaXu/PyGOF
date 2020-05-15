@@ -69,6 +69,10 @@ class CompositeEntityPatternDemo:
         client.printData()
         client.setData("Second Test", "Data1")
         client.printData()
+
+
 C = CompositeEntityPatternDemo()
 C.run()
+
+
 

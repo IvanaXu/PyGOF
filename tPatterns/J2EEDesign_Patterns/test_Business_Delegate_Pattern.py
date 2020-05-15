@@ -73,6 +73,10 @@ class BusinessDelegatePatternDemo:
 
         self.businessDelegate.setServiceType("JMS")
         client.doTask()
+
+
 B = BusinessDelegatePatternDemo()
 B.run()
+
+
 
