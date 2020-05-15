@@ -55,5 +55,8 @@ class FactoryPatternDemo:
         shape_square.draw()
         shape_circle.draw()
 
+
 FactoryPatternDemo()
+
+
 

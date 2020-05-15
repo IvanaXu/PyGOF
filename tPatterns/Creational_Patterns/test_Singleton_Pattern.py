@@ -20,4 +20,9 @@ class SingletonPatternDemo:
     def __init__(self):
         object = SingleObject().getInstance()
         object.showMessage()
+
+
 SingletonPatternDemo()
+
+
+

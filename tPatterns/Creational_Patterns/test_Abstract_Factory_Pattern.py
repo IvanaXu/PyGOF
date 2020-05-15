@@ -122,6 +122,9 @@ class AbstractFactoryPatternDemo:
             color1 = self.colorFactory.getColor(i)
             color1.fill()
 
+
 A = AbstractFactoryPatternDemo()
 A.run()
+
+
 
