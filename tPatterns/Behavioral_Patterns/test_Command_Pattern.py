@@ -66,6 +66,10 @@ class CommandPatternDemo:
         broker.takeOrder(sellStockOrder)
 
         broker.placeOrders()
+
+
 C = CommandPatternDemo()
 C.run()
+
+
 

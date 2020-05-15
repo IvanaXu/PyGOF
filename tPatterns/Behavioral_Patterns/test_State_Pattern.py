@@ -62,6 +62,10 @@ class StatePatternDemo:
         self.stopState.doAction(self.context)
 
         print(self.context.getState().toString())
+
+
 S = StatePatternDemo()
 S.run()
+
+
 

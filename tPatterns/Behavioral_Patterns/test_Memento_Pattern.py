@@ -63,6 +63,10 @@ class MementoPatternDemo:
         print("First saved State: " + originator.getState())
         originator.getStateFromMemento(careTaker.get(1))
         print("Second saved State: " + originator.getState())
+
+
 M = MementoPatternDemo()
 M.run()
+
+
 

@@ -27,6 +27,10 @@ class MediatorPatternDemo:
         john = User("John")
         robert.sendMessage("Hi! John!")
         john.sendMessage("Hello! Robert!")
+
+
 M = MediatorPatternDemo()
 M.run()
+
+
 

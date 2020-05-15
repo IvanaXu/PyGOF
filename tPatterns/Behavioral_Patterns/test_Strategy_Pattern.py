@@ -42,6 +42,10 @@ class StrategyPatternDemo:
 
         context = Context(OperationMultiply())
         print("10 * 5 = " + str(context.executeStrategy(10, 5)))
+
+
 S = StrategyPatternDemo()
 S.run()
+
+
 

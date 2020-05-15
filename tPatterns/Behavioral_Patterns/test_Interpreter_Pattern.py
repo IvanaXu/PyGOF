@@ -65,6 +65,10 @@ class InterpreterPatternDemo:
         print(isMarriedWoman.interpret('Married Julie'))
         # print self.getMarriedWomanExpression().interpret('Married Julie')
         return
+
+
 I = InterpreterPatternDemo()
 I.run()
+
+
 

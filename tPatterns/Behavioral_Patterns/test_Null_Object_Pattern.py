@@ -62,6 +62,10 @@ class NullPatternDemp:
         print(customer2.isNil(), ' :', customer2.getName())
         print(customer3.isNil(),  ':', customer3.getName())
         print(customer4.isNil(), ' :', customer4.getName())
+
+
 N = NullPatternDemp()
 N.run()
+
+
 

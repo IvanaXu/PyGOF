@@ -84,6 +84,10 @@ class VisitorPatternDemo:
     def run(self):
         self.computer = Computer()
         self.computer.accept(ComputerPartDisplayVisitor())
+
+
 V = VisitorPatternDemo()
 V.run()
+
+
 

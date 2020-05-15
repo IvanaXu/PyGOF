@@ -70,5 +70,9 @@ class ChainPatternDemo:
         self.loggerChain.logMessage(AbstractLogger().DEBUG, "This is an debug level information.")
         self.loggerChain.logMessage(AbstractLogger().ERROR, "This is an error information.")
         return
+
+
 ChainPatternDemo().func()
+
+
 

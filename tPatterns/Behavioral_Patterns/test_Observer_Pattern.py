@@ -71,6 +71,10 @@ class ObserverPatternDemo:
 
         print("Second state change: 10")
         self.subject.setState(10)
+
+
 O = ObserverPatternDemo()
 O.run()
+
+
 
