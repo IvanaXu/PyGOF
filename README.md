@@ -1,10 +1,8 @@
 # DESIGN PATTERN TUTORIAL
-**设计模式**
-http://www.runoob.com/design-pattern/design-pattern-tutorial.html
 
-Erich Gamma、Richard Helm、Ralph Johnson、John Vlissides 合著
+> http://www.runoob.com/design-pattern/design-pattern-tutorial.html
 
-这几位作者常被称为四人组-Gang of Four。
+Erich Gamma、Richard Helm、Ralph Johnson、John Vlissides.
 
 ~~@time 20170912 update.~~
 
